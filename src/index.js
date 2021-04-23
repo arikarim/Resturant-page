@@ -2,6 +2,7 @@ import _ from 'lodash';
 import './style.css';
 import { headerPage } from "./header"
 import {renderHome} from './home'
+import {foodpage} from './food'
 
 const tabs = document.querySelectorAll("[data-tab-target]");
 const tabContents = document.querySelectorAll("[data-tab-content]");
