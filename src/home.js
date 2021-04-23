@@ -3,7 +3,7 @@ const renderHome = (() =>{
   const container = document.getElementById('content');
 
   const home = document.createElement('div');
-  home.setAttribute("data-tab-content", "");
+  home.classList.add("tab-content")
 
   home.classList.add('tab-content');
   home.innerHTML = `

@@ -3,8 +3,6 @@ import './style.css';
 import { headerPage } from "./header"
 import {renderHome} from './home'
 
-ren
-
 const tabs = document.querySelectorAll("[data-tab-target]");
 const tabContents = document.querySelectorAll("[data-tab-content]");
 const burger = document.querySelector(".hamburger");
@@ -31,7 +29,7 @@ tabs.forEach((tab) =>
 );
 
 //Makes sure that menu navigation tab is colored after clicking button
-document.querySelector(".order-now").addEventListener("click", () => {
+document.querySelector(".main-row").addEventListener("click", () => {
   document.querySelector(`[data-tab-target="#menu"]`).classList.add("red");
 });
 
