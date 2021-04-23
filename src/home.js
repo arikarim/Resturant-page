@@ -1,6 +1,6 @@
 const renderHome = (() =>{
   //container ===>
-  const container = document.querySelector('#content');
+  const container = document.getElementById('content');
 
   const home = document.createElement('div');
 
