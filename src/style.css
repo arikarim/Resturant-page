@@ -12,3 +12,35 @@ body {
   height: 100%;
 }
 
+
+li {
+  font-family: var(--poppins);
+  list-style: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.red {
+  color: var(--pink);
+}
+
+li:hover {
+  color: var(--pink);
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+.tab-content h1 {
+  font-family: var(--fredoka);
+  font-size: calc(3rem + 2vw);
+  text-align: center;
+}
+
+
