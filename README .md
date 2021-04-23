@@ -8,6 +8,10 @@ A Restaurant page built with JavaScript.
 ## Screenshots of the app.
 
 ![image](./src/img/screen.png)
+
+
+[Live Demo Link](https://arikarim.github.io/Resturant-page/)
+
 ## Built With
 
 - Javascript
