@@ -1,5 +1,14 @@
 body {
   background-image: url(./img/kabab.jpg);
-  background-size: contain;
+  position: relative;
+  background-size: cover;
   background-repeat: no-repeat;
 }
+
+.main-row {
+  background-color: rgba(223, 222, 214, 0.7);
+
+  width: 75%;
+  height: 100%;
+}
+
