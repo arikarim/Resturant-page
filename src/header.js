@@ -1,8 +1,8 @@
 const headerPage = (() => {
-  //container
-  const contentContainer = document.querySelector("#content");
+  // container
+  const contentContainer = document.querySelector('#content');
 
-  const header = document.createElement("header");
+  const header = document.createElement('header');
   header.innerHTML = `
   <nav class='d-flex justify-content-between bg-dark p-3'>
     <h2 class='text-light'>Kurdish Food</h2>
@@ -13,10 +13,10 @@ const headerPage = (() => {
     </a>
     <ul class="list-unstyled d-flex text-light">
       <li data-tab-target="#home" class="tab red mx-3">Home</li>
-      <li data-tab-target="#menu" class="tab mx-3">Menu</li>
+      <li id='menuu' data-tab-target="#menu" class="tab mx-3">Menu</li>
       <li data-tab-target="#contact" class="tab mx-3">Contact us</li>
     </ul>
 </nav>`;
 
-    contentContainer.appendChild(header)
+  contentContainer.appendChild(header);
 })();

@@ -1,10 +1,9 @@
 const contactPage = (() => {
-
-  const contentContainer = document.querySelector("#content");
-  const contact = document.createElement("div");
+  const contentContainer = document.querySelector('#content');
+  const contact = document.createElement('div');
   contact.classList.add('container-fluid');
-  contact.setAttribute("id", "contact");
-  contact.setAttribute("data-tab-content", "");
+  contact.setAttribute('id', 'contact');
+  contact.setAttribute('data-tab-content', '');
   contact.innerHTML = `
   <h1 class='text-center text-light'>Contact Us</h1>
   <div class='col-10 col-md-6 mx-auto row d-flex flex-column contact-row'>
@@ -31,9 +30,9 @@ const contactPage = (() => {
           <input class='btn btn-dark my-3' type="submit" value="Send" />
         </form>
       </div>
-  </div>`
+  </div>`;
 
   contentContainer.appendChild(contact);
 })();
 
-export { contactPage };
+export default contactPage;

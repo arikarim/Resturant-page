@@ -1,15 +1,14 @@
-import Kabab from './img/kababb.jpg'
-import Kuba from './img/kuba.jpg'
-import Sarupe from './img/sarupe.jpeg'
-import Yaprax from './img/yaprax.png'
+import Kabab from './img/kababb.jpg';
+import Kuba from './img/kuba.jpg';
+import Sarupe from './img/sarupe.jpeg';
+import Yaprax from './img/yaprax.png';
 
 const foodpage = (() => {
-  const contentContainer = document.querySelector("#content");
-  const food = document.createElement("div");
-  food.classList.add('container-fluid')
-  food.setAttribute("id", "menu");
-  food.setAttribute("data-tab-content", "");
-
+  const contentContainer = document.querySelector('#content');
+  const food = document.createElement('div');
+  food.classList.add('container-fluid');
+  food.setAttribute('id', 'menu');
+  food.setAttribute('data-tab-content', '');
 
   food.innerHTML = `
   <div class='row mt-3 main-food'>
@@ -53,31 +52,30 @@ const foodpage = (() => {
       </div>
     </div>
   </div>`;
-  contentContainer.appendChild(food)
+  contentContainer.appendChild(food);
 
   const img1 = new Image();
   img1.src = Kabab;
-  img1.classList.add('image-food')
+  img1.classList.add('image-food');
   const img11 = document.getElementById('img1');
-  img11.appendChild(img1)
+  img11.appendChild(img1);
 
   const img2 = new Image();
   img2.src = Kuba;
-  img2.classList.add('image-food')
+  img2.classList.add('image-food');
   const img22 = document.getElementById('img2');
-  img22.appendChild(img2)
+  img22.appendChild(img2);
 
   const img3 = new Image();
   img3.src = Yaprax;
-  img3.classList.add('image-food')
+  img3.classList.add('image-food');
   const img33 = document.getElementById('img3');
-  img33.appendChild(img3)
+  img33.appendChild(img3);
 
   const img4 = new Image();
   img4.src = Sarupe;
-  img4.classList.add('image-food')
+  img4.classList.add('image-food');
   const img44 = document.getElementById('img4');
-  img44.appendChild(img4)
-
+  img44.appendChild(img4);
 })();
-export {foodpage};
+export default foodpage;

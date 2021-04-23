@@ -1,9 +1,9 @@
-const renderHome = (() =>{
-  //container ===>
+const renderHome = (() => {
+  // container ===>
   const container = document.getElementById('content');
 
   const home = document.createElement('div');
-  home.classList.add("tab-content")
+  home.classList.add('tab-content');
 
   home.classList.add('tab-content');
   home.innerHTML = `
@@ -16,7 +16,7 @@ const renderHome = (() =>{
     </div>
   </div>`;
 
-  container.appendChild(home)
+  container.appendChild(home);
 })();
 
-export {renderHome};
+export default renderHome;
