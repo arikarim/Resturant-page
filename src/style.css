@@ -52,6 +52,14 @@ li:hover {
   height: 100%;
 }
 
+.contact-row {
+  background-color: rgba(250, 193, 188, 0.7);
+
+  background-size: 70%;
+  height: 100%;
+}
+
+
 
 .red {
   color: red;

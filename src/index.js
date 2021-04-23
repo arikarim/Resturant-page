@@ -3,6 +3,7 @@ import './style.css';
 import { headerPage } from "./header"
 import {renderHome} from './home'
 import {foodpage} from './food'
+import {contactPage} from './contact'
 
 const tabs = document.querySelectorAll("[data-tab-target]");
 const tabContents = document.querySelectorAll("[data-tab-content]");
