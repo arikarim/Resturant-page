@@ -16,7 +16,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _img_kabab_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/kabab.jpg */ \"./src/img/kabab.jpg\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_img_kabab_jpg__WEBPACK_IMPORTED_MODULE_2__);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  position: relative;\\n  background-size: cover;\\n  background-repeat: no-repeat;\\n}\\n\\n\\n\\nli {\\n  font-family: var(--poppins);\\n  list-style: none;\\n  font-weight: bold;\\n  transition: 0.3s ease;\\n  cursor: pointer;\\n}\\n\\n.red {\\n  color: var(--pink);\\n}\\n\\nli:hover {\\n  color: var(--pink);\\n}\\n\\n[data-tab-content] {\\n  display: none;\\n}\\n\\n.active[data-tab-content] {\\n  display: block;\\n}\\n\\n.tab-content h1 {\\n  font-family: var(--fredoka);\\n  font-size: calc(3rem + 2vw);\\n  text-align: center;\\n}\\n\\n\\n.main-row {\\n  background-color: rgba(223, 222, 214, 0.7);\\n\\n  width: 75%;\\n  height: 100%;\\n}\\n\\n.red {\\n  color: red;\\n}\\n\\n.image-food {\\n  width: 250px;\\n  height: 250px;\\n  border-radius: 100px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpackk/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _img_kabab_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/kabab.jpg */ \"./src/img/kabab.jpg\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_img_kabab_jpg__WEBPACK_IMPORTED_MODULE_2__);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  position: relative;\\n  background-size: cover;\\n  background-repeat: no-repeat;\\n}\\n\\n\\n\\nli {\\n  font-family: var(--poppins);\\n  list-style: none;\\n  font-weight: bold;\\n  transition: 0.3s ease;\\n  cursor: pointer;\\n}\\n\\n.red {\\n  color: var(--pink);\\n}\\n\\nli:hover {\\n  color: var(--pink);\\n}\\n\\n[data-tab-content] {\\n  display: none;\\n}\\n\\n.active[data-tab-content] {\\n  display: block;\\n}\\n\\n.tab-content h1 {\\n  font-family: var(--fredoka);\\n  font-size: calc(3rem + 2vw);\\n  text-align: center;\\n}\\n\\n\\n.main-row {\\n  background-color: rgba(250, 193, 188, 0.7);\\n\\n  width: 75%;\\n  height: 100%;\\n}\\n\\n.main-food {\\n  background-color: rgba(250, 193, 188, 0.7);\\n\\n  width: 100%;\\n  height: 100%;\\n}\\n\\n\\n.red {\\n  color: red;\\n}\\n\\n.image-food {\\n  width: 210px;\\n  height: 210px;\\n  border-radius: 100px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpackk/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -78,9 +78,10 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /*!*********************!*\
   !*** ./src/food.js ***!
   \*********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("throw new Error(\"Module parse failed: Identifier 'Kabab' has already been declared (2:7)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n| import Kabab from './img/kababb.jpg'\\n> import Kabab from './img/kababb.jpg'\\n| import Kabab from './img/kababb.jpg'\\n| import Kabab from './img/kababb.jpg'\");\n\n//# sourceURL=webpack://webpackk/./src/food.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"foodpage\": () => (/* binding */ foodpage)\n/* harmony export */ });\n/* harmony import */ var _img_kababb_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/kababb.jpg */ \"./src/img/kababb.jpg\");\n/* harmony import */ var _img_kuba_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/kuba.jpg */ \"./src/img/kuba.jpg\");\n/* harmony import */ var _img_sarupe_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/sarupe.jpeg */ \"./src/img/sarupe.jpeg\");\n/* harmony import */ var _img_yaprax_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/yaprax.png */ \"./src/img/yaprax.png\");\n\n\n\n\n\nconst foodpage = (() => {\n  const contentContainer = document.querySelector(\"#content\");\n  const food = document.createElement(\"div\");\n  food.classList.add('container-fluid')\n  food.setAttribute(\"id\", \"menu\");\n  food.setAttribute(\"data-tab-content\", \"\");\n\n\n  food.innerHTML = `\n  <div class='row mt-3 main-food'>\n    <div class='col-12 col-md-6 d-flex py-3'>\n      <div id='img1' class='col-6 image-food  img1'>\n        \n      </div>\n      <div class='col-6 mx-2'>\n        <h3 class='text-center'>KABAB</h3>\n        <p>Kebabs are various cooked meat dishes with their origins in Middle Eastern cuisine. Numerous variants are popular around the world. In many parts of Asia, the Muslim world, and in Indian English and the languages of the Middle East, a kebab is any of a wide variety of grilled meat dishes. </p>\n      </div>\n    </div>\n\n    <div class='col-12 col-md-6 d-flex py-3'>\n      <div id='img2' class='col-6 image-food  img1'>\n        \n      </div>\n      <div class='col-6 mx-2'>\n        <h3 class='text-center'>KUBA</h3>\n        <p>Kuba is a family of dishes based on spiced ground meat, onions, and grain, popular in Middle Eastern cuisine. In Levantine cuisine, kibbeh is usually made by pounding bulgur wheat together with meat into a fine paste and forming it into balls with toasted pine nuts and spices </p>\n      </div>\n    </div>\n\n    <div class='col-12 col-md-6 d-flex py-3'>\n      <div id='img3' class='col-6 image-food  img1'>\n        \n      </div>\n      <div class='col-6 mx-2'>\n        <h3 class='text-center'>Yaprakh</h3>\n        <p>Yaprax(Dolma-as it is called in many countries) is a favorite Middle Eastern dish. It is made up of grape leaves,pepper,zucchini,eggplant,onions and tomatoes filled with spiced up rice. Well, this kind of one of the many types of Yaprax/Dolma.</p>\n      </div>\n    </div>\n\n    <div class='col-12 col-md-6 d-flex py-3'>\n      <div id='img4' class='col-6 image-food  img1'>\n        \n      </div>\n      <div class='col-6 mx-2'>\n        <h3 class='text-center'>Sarupe</h3>\n        <p>Pacha (Sarupe in Kurdish) is a traditional dish made out of sheep skin filled with spiced rice, especially popular in the wintertime. “It was around 2:30 in the morning when four people came to our restaurant to eat pacha.</p>\n      </div>\n    </div>\n  </div>`;\n  contentContainer.appendChild(food)\n\n  const img1 = new Image();\n  img1.src = _img_kababb_jpg__WEBPACK_IMPORTED_MODULE_0__;\n  img1.classList.add('image-food')\n  const img11 = document.getElementById('img1');\n  img11.appendChild(img1)\n\n  const img2 = new Image();\n  img2.src = _img_kuba_jpg__WEBPACK_IMPORTED_MODULE_1__;\n  img2.classList.add('image-food')\n  const img22 = document.getElementById('img2');\n  img22.appendChild(img2)\n\n  const img3 = new Image();\n  img3.src = _img_yaprax_png__WEBPACK_IMPORTED_MODULE_3__;\n  img3.classList.add('image-food')\n  const img33 = document.getElementById('img3');\n  img33.appendChild(img3)\n\n  const img4 = new Image();\n  img4.src = _img_sarupe_jpeg__WEBPACK_IMPORTED_MODULE_2__;\n  img4.classList.add('image-food')\n  const img44 = document.getElementById('img4');\n  img44.appendChild(img4)\n\n})();\n\n\n//# sourceURL=webpack://webpackk/./src/food.js?");
 
 /***/ }),
 
@@ -113,6 +114,50 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"e9e5df9694b2f6e59226.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/kabab.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/kababb.jpg":
+/*!****************************!*\
+  !*** ./src/img/kababb.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"bf9329fdd3204cb3ca11.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/kababb.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/kuba.jpg":
+/*!**************************!*\
+  !*** ./src/img/kuba.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"4ef9da2625c6a7f0ae1b.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/kuba.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/sarupe.jpeg":
+/*!*****************************!*\
+  !*** ./src/img/sarupe.jpeg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"a8d72f1dfba2861c5372.jpeg\";\n\n//# sourceURL=webpack://webpackk/./src/img/sarupe.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img/yaprax.png":
+/*!****************************!*\
+  !*** ./src/img/yaprax.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"7bce89db50ef7db3c684.png\";\n\n//# sourceURL=webpack://webpackk/./src/img/yaprax.png?");
 
 /***/ }),
 
