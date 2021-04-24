@@ -30,7 +30,11 @@ Navigate through the local folder where you want to clone the repository and run
 git clone `https://github.com/arikarim/Resturant-page`. It will clone the repo to your local folder.<br>
 
 **Step 2**<br>
-then you can run it using the text editor of your choice.
+- Cd inside the project
+
+- run npm run build
+
+- Open the index.html in the browser.
 
 
 ## 🤝 contributing
