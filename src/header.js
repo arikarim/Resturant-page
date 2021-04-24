@@ -20,3 +20,4 @@ const headerPage = (() => {
 
   contentContainer.appendChild(header);
 })();
+export default headerPage;

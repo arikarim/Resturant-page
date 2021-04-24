@@ -1,6 +1,6 @@
 # Resturant Page
 
-A Restaurant page built with JavaScript.
+A Restaurant page built with JavaScript that contains the home page, menu page, and contact page.
 
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success) ![](https://img.shields.io/badge/Mobile--responsive-yes-green) ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 
@@ -30,7 +30,12 @@ Navigate through the local folder where you want to clone the repository and run
 git clone `https://github.com/arikarim/Resturant-page`. It will clone the repo to your local folder.<br>
 
 **Step 2**<br>
-then you can run it using the text editor of your choice.
+
+- Cd inside the project
+
+- run npm run build
+
+- Open the index.html in the browser.
 
 
 ## 🤝 contributing
