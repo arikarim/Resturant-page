@@ -5,7 +5,7 @@ const headerPage = (() => {
   const header = document.createElement('header');
   header.innerHTML = `
   <nav class='d-flex justify-content-between bg-dark p-3'>
-    <h2 class='text-light'>Kurdish Food</h2>
+    <h2 class='red'>Kurdish Food</h2>
     <a href="#" class="hamburger">
       <span class="line line1"></span>
       <span class="line line2"></span>

@@ -58,3 +58,7 @@ li:hover {
   height: 210px;
   border-radius: 100px;
 }
+
+.text-danger {
+  color: red;
+}
