@@ -1,6 +1,6 @@
 # Resturant Page
 
-A Restaurant page built with JavaScript.
+A Restaurant page built with JavaScript that contains the home page, menu page, and contact page.
 
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success) ![](https://img.shields.io/badge/Mobile--responsive-yes-green) ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 
