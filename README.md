@@ -16,6 +16,7 @@ A Restaurant page built with JavaScript that contains the home page, menu page, 
 
 - Javascript
 - Bootstrap
+- Css
 
 ## Prerequisities
 
